@@ -56,7 +56,7 @@ Restart Claude, then just ask: *"Use context-killer to write … and save it to 
 ## Good to know
 
 - It writes (and overwrites) files on disk, so glance at what Claude's about to do
-  before approving the call.
+  before approving.
 - Your prompt and any context files get sent to Gemini — don't point it at secrets.
 - `.env` is git-ignored. Never commit your real key.
 
