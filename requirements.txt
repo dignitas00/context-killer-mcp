@@ -1,0 +1,11 @@
+# Context-Killer MCP — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+# Official Anthropic MCP SDK (provides FastMCP)
+mcp>=1.0.0
+
+# Google GenAI SDK (Gemini)
+google-genai>=1.0.0
+
+# Loads GEMINI_API_KEY from a .env file
+python-dotenv>=1.0.0
